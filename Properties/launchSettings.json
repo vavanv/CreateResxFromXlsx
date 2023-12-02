@@ -2,7 +2,7 @@
   "profiles": {
     "CreateResxFile": {
       "commandName": "Project",
-      "commandLineArgs": "D:\\Develop\\Utils\\CreateResxFile\\localization.xlsx menu key en JavaSript"
+      "commandLineArgs": "D:\\Develop\\Utils\\CreateResxFile\\localization.xlsx WebMessages WebMessages"
     }
   }
 }

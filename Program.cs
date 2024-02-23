@@ -52,11 +52,14 @@ namespace CreateResxFile
                     var culunmName = columns[colNum];
                     var valueIndex = Array.IndexOf(columns, culunmName);
 
-
+                    if (culunmName == "NEW")
+                    {
+                        continue;
+                    }
                     if (culunmName == "en")
                     {
                         outputFile = inOutputFileName + ".resx";
-                    } else
+                    } else 
                     {
                         outputFile = inOutputFileName + "." + culunmName + ".resx";
                     }

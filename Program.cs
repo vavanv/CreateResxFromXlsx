@@ -71,7 +71,7 @@ namespace CreateResxFile
                         for (int rowNum = 2; rowNum <= totalRows; rowNum++)
                         {
                             var key = worksheet.Cells[rowNum, 1].Text;
-                            var value = worksheet.Cells[rowNum, valueIndex].Text;
+                            var value = worksheet.Cells[rowNum, valueIndex + 1].Text;
                             resx.AddResource(key, value);
                         }
                     }

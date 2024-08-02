@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Accounting" xml:space="preserve">
+    <value>Comptabilité</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Actif</value>
+  </data>
+  <data name="Activities" xml:space="preserve">
+    <value>Activités</value>
+  </data>
+  <data name="AddressManagement" xml:space="preserve">
+    <value>Gestion des adresses</value>
+  </data>
+  <data name="AddressManager" xml:space="preserve">
+    <value>Gestionnaire d'adresses</value>
+  </data>
+  <data name="AllAddress" xml:space="preserve">
+    <value>Toutes les adresses</value>
+  </data>
+  <data name="ApiSyncQueue" xml:space="preserve">
+    <value>File d'attente de synchronisation de l'API</value>
+  </data>
+  <data name="Attendants" xml:space="preserve">
+    <value>Standardistes</value>
+  </data>
+  <data name="Billing" xml:space="preserve">
+    <value>Facturation</value>
+  </data>
+  <data name="BillingFrequency" xml:space="preserve">
+    <value>Fréquence de facturation</value>
+  </data>
+  <data name="Calendar" xml:space="preserve">
+    <value>Calendrier</value>
+  </data>
+  <data name="CallAgents" xml:space="preserve">
+    <value>Agents d'appels</value>
+  </data>
+  <data name="CallList" xml:space="preserve">
+    <value>Liste d'appels</value>
+  </data>
+  <data name="CallLogs" xml:space="preserve">
+    <value>Journaux d'appels</value>
+  </data>
+  <data name="Calls" xml:space="preserve">
+    <value>Appels</value>
+  </data>
+  <data name="Campaign" xml:space="preserve">
+    <value>Campagne</value>
+  </data>
+  <data name="Campaigns" xml:space="preserve">
+    <value>Campagnes</value>
+  </data>
+  <data name="Commisions" xml:space="preserve">
+    <value>Commissions</value>
+  </data>
+  <data name="Companies" xml:space="preserve">
+    <value>Entreprises</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>Entreprise</value>
+  </data>
+  <data name="CompanyActivity" xml:space="preserve">
+    <value>Activité de l'entreprise</value>
+  </data>
+  <data name="CompanyEmailSettings" xml:space="preserve">
+    <value>Paramètres d'e-mail de l'entreprise</value>
+  </data>
+  <data name="CompanyEmployees" xml:space="preserve">
+    <value>Employés de l'entreprise</value>
+  </data>
+  <data name="CompanyInformation" xml:space="preserve">
+    <value>Informations sur l'entreprise</value>
+  </data>
+  <data name="CompanyOffices" xml:space="preserve">
+    <value>Bureaux de l'entreprise</value>
+  </data>
+  <data name="CompanyUsers" xml:space="preserve">
+    <value>Utilisateurs de l'entreprise</value>
+  </data>
+  <data name="Conference" xml:space="preserve">
+    <value>Conference</value>
+  </data>
+  <data name="ContactList" xml:space="preserve">
+    <value>Liste de contacts</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="ConvertToOrganization" xml:space="preserve">
+    <value>Convertir en organisation</value>
+  </data>
+  <data name="DailyInactiveEmail" xml:space="preserve">
+    <value>Inactif quotidien par courriel</value>
+  </data>
+  <data name="DailyReports" xml:space="preserve">
+    <value>Rapports quotidiens</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Tableau de bord</value>
+  </data>
+  <data name="DataAndReport" xml:space="preserve">
+    <value>Données et rapports</value>
+  </data>
+  <data name="DataImport" xml:space="preserve">
+    <value>Importation de données</value>
+  </data>
+  <data name="DataTest" xml:space="preserve">
+    <value>Test de données</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Par défaut</value>
+  </data>
+  <data name="Definitions" xml:space="preserve">
+    <value>Définitions</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Détails</value>
+  </data>
+  <data name="Dispatches" xml:space="preserve">
+    <value>Expéditions</value>
+  </data>
+  <data name="Documents" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Courriel</value>
+  </data>
+  <data name="EmailSetupLog" xml:space="preserve">
+    <value>Configuration de l'e-mail</value>
+  </data>
+  <data name="EmailTemplates" xml:space="preserve">
+    <value>Modèles d'e-mails</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Employés</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>Événements</value>
+  </data>
+  <data name="Expenses" xml:space="preserve">
+    <value>Dépenses</value>
+  </data>
+  <data name="Franchisors" xml:space="preserve">
+    <value>Franchisés</value>
+  </data>
+  <data name="HeaderSummary" xml:space="preserve">
+    <value>Résumé de l'en-tête</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Historique</value>
+  </data>
+  <data name="Inactive" xml:space="preserve">
+    <value>Inactif</value>
+  </data>
+  <data name="Inbox" xml:space="preserve">
+    <value>Boîte de réception</value>
+  </data>
+  <data name="IntakeHistory" xml:space="preserve">
+    <value>Historique de l'admission</value>
+  </data>
+  <data name="InvoiceMessages" xml:space="preserve">
+    <value>Messages de facture</value>
+  </data>
+  <data name="Invoices" xml:space="preserve">
+    <value>Factures</value>
+  </data>
+  <data name="JobCreditLogs" xml:space="preserve">
+    <value>Journaux de crédit d'dossier</value>
+  </data>
+  <data name="JobCreditRemoval" xml:space="preserve">
+    <value>Suppression de crédit d'dossier</value>
+  </data>
+  <data name="JobCreditTest" xml:space="preserve">
+    <value>Test de crédit d'dossier</value>
+  </data>
+  <data name="JobManager" xml:space="preserve">
+    <value>Gestionnaire de tâches</value>
+  </data>
+  <data name="Jobs" xml:space="preserve">
+    <value>Dossiers</value>
+  </data>
+  <data name="LastLogins" xml:space="preserve">
+    <value>Dernières connexions</value>
+  </data>
+  <data name="Lead" xml:space="preserve">
+    <value>Prospect</value>
+  </data>
+  <data name="LeadContacts" xml:space="preserve">
+    <value>Contacts de prospect</value>
+  </data>
+  <data name="Leads" xml:space="preserve">
+    <value>Prospects</value>
+  </data>
+  <data name="Map" xml:space="preserve">
+    <value>Carte</value>
+  </data>
+  <data name="Marketing" xml:space="preserve">
+    <value>Marketing</value>
+  </data>
+  <data name="MassEdit" xml:space="preserve">
+    <value>Édition de masse</value>
+  </data>
+  <data name="Merge" xml:space="preserve">
+    <value>Fusionner</value>
+  </data>
+  <data name="MyCompany" xml:space="preserve">
+    <value>Ma société</value>
+  </data>
+  <data name="MyEmailSettings" xml:space="preserve">
+    <value>Mes paramètres de messagerie</value>
+  </data>
+  <data name="MyRoutes" xml:space="preserve">
+    <value>Mes itinéraires</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Office" xml:space="preserve">
+    <value>Bureau</value>
+  </data>
+  <data name="OfficeActivity" xml:space="preserve">
+    <value>Activité du bureau</value>
+  </data>
+  <data name="OfficeEmail Settings" xml:space="preserve">
+    <value>Paramètres d'e-mail du bureau</value>
+  </data>
+  <data name="OfficePhones" xml:space="preserve">
+    <value>Téléphones de bureau</value>
+  </data>
+  <data name="Offices" xml:space="preserve">
+    <value>Bureaux</value>
+  </data>
+  <data name="Opportunities" xml:space="preserve">
+    <value>Opportunités</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="Organization" xml:space="preserve">
+    <value>Organisation</value>
+  </data>
+  <data name="OrganizationList" xml:space="preserve">
+    <value>Liste d'organisations</value>
+  </data>
+  <data name="OrganizationManager" xml:space="preserve">
+    <value>Gestionnaire d'organisations</value>
+  </data>
+  <data name="Organizations" xml:space="preserve">
+    <value>Organisations</value>
+  </data>
+  <data name="OverPayments" xml:space="preserve">
+    <value>Paiements excédentaires</value>
+  </data>
+  <data name="PaymentList" xml:space="preserve">
+    <value>Liste de paiements</value>
+  </data>
+  <data name="PaymentReport" xml:space="preserve">
+    <value>Rapport de paiement</value>
+  </data>
+  <data name="Payments" xml:space="preserve">
+    <value>Paiements</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>Autorisations</value>
+  </data>
+  <data name="PriceLevels" xml:space="preserve">
+    <value>Niveaux de prix</value>
+  </data>
+  <data name="Regions" xml:space="preserve">
+    <value>Régions</value>
+  </data>
+  <data name="RelateRelationship" xml:space="preserve">
+    <value>Relation liée</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>Rapports</value>
+  </data>
+  <data name="Route" xml:space="preserve">
+    <value>Itinéraire</value>
+  </data>
+  <data name="RouteList" xml:space="preserve">
+    <value>Liste d'itinéraires</value>
+  </data>
+  <data name="SalesIncentive" xml:space="preserve">
+    <value>Incentive de vente</value>
+  </data>
+  <data name="SalesTeam" xml:space="preserve">
+    <value>Équipe de vente</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Envoyer</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Résumé</value>
+  </data>
+  <data name="Sync" xml:space="preserve">
+    <value>Synchronisation</value>
+  </data>
+  <data name="Tasks" xml:space="preserve">
+    <value>Tâches</value>
+  </data>
+  <data name="Templates" xml:space="preserve">
+    <value>Modèles</value>
+  </data>
+  <data name="Terms" xml:space="preserve">
+    <value>Termes</value>
+  </data>
+  <data name="UpdateInformation" xml:space="preserve">
+    <value>Mettre à jour les informations</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Utilisateur</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Utilisateurs</value>
+  </data>
+</root>

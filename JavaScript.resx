@@ -1,0 +1,793 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="AddNewFilterCriteria" xml:space="preserve">
+    <value>Add New Filter Criteria</value>
+  </data>
+  <data name="AddNewTab" xml:space="preserve">
+    <value>Add New Tab</value>
+  </data>
+  <data name="Alert" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="AllEmailsHaveBeenDeletedInTheFolder" xml:space="preserve">
+    <value>All emails have been deleted in the folder</value>
+  </data>
+  <data name="AllEmailsHaveBeenMarkedAsRead" xml:space="preserve">
+    <value>All emails have been marked as read</value>
+  </data>
+  <data name="AllEmailsHaveBeenMovedToTheFolder" xml:space="preserve">
+    <value>All emails have been moved to the folder</value>
+  </data>
+  <data name="AllEmailsUnder" xml:space="preserve">
+    <value>All emails under</value>
+  </data>
+  <data name="AM" xml:space="preserve">
+    <value>AM</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>And</value>
+  </data>
+  <data name="AndSameOperator" xml:space="preserve">
+    <value>and same operator: 'And'. Please use 'Or' or choose a different column/criteria.</value>
+  </data>
+  <data name="AndSetYourLocation" xml:space="preserve">
+    <value>and set your location.</value>
+  </data>
+  <data name="Apr" xml:space="preserve">
+    <value>Apr</value>
+  </data>
+  <data name="April" xml:space="preserve">
+    <value>April</value>
+  </data>
+  <data name="Aug" xml:space="preserve">
+    <value>Aug</value>
+  </data>
+  <data name="August" xml:space="preserve">
+    <value>August</value>
+  </data>
+  <data name="Between1and2" xml:space="preserve">
+    <value>Between @1 and @2</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CanNotBeUsedMultipleTimes" xml:space="preserve">
+    <value>can not be used multiple times with the same criteria:</value>
+  </data>
+  <data name="ChangeFilterOptions" xml:space="preserve">
+    <value>Change Filter Options</value>
+  </data>
+  <data name="ChangesHaveNotBeenSaved" xml:space="preserve">
+    <value>Changes have not been saved yet. Are you sure?</value>
+  </data>
+  <data name="ClearDate" xml:space="preserve">
+    <value>Clear date</value>
+  </data>
+  <data name="ClearFilter" xml:space="preserve">
+    <value>Clear Filter</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>click here</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>close</value>
+  </data>
+  <data name="CloseFormula" xml:space="preserve">
+    <value>Close Formula</value>
+  </data>
+  <data name="CloseWarningMessage" xml:space="preserve">
+    <value>Close Warning Message</value>
+  </data>
+  <data name="CloseWindow" xml:space="preserve">
+    <value>Close Window</value>
+  </data>
+  <data name="Column" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="ColumnShow" xml:space="preserve">
+    <value>Column Show</value>
+  </data>
+  <data name="ComposeNewEmail" xml:space="preserve">
+    <value>Compose New Email</value>
+  </data>
+  <data name="ContactDetails" xml:space="preserve">
+    <value>Contact Details</value>
+  </data>
+  <data name="CreatedBy" xml:space="preserve">
+    <value>Created By</value>
+  </data>
+  <data name="DataHasBeenDeleted" xml:space="preserve">
+    <value>Data has been deleted</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>days</value>
+  </data>
+  <data name="Dec" xml:space="preserve">
+    <value>Dec</value>
+  </data>
+  <data name="December" xml:space="preserve">
+    <value>December</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DeleteRecord" xml:space="preserve">
+    <value>Delete Record</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="DoYouWantDeleteItem" xml:space="preserve">
+    <value>Do you want delete this item?</value>
+  </data>
+  <data name="DoYouWantDeleteTheRecord" xml:space="preserve">
+    <value>Do you want delete the record?</value>
+  </data>
+  <data name="DoYouWantDeleteTheRecords" xml:space="preserve">
+    <value>Do you want delete the records?</value>
+  </data>
+  <data name="DoYouWantToDelete" xml:space="preserve">
+    <value>Do you want to delete</value>
+  </data>
+  <data name="DoYouWantToDeleteAllEmailsInThe" xml:space="preserve">
+    <value>Do you want to delete all emails in the</value>
+  </data>
+  <data name="DoYouWantToDeleteThisReportTab" xml:space="preserve">
+    <value>Do you want to delete this report tab?</value>
+  </data>
+  <data name="Duplicate" xml:space="preserve">
+    <value>Duplicate</value>
+  </data>
+  <data name="DuplicateCurrentView" xml:space="preserve">
+    <value>Duplicate Current View</value>
+  </data>
+  <data name="DuplicateRecordWarning" xml:space="preserve">
+    <value>Duplicate Record Warning</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="EndNumberIsNotCorrect" xml:space="preserve">
+    <value>End number is not correct!</value>
+  </data>
+  <data name="EnterGidViewName" xml:space="preserve">
+    <value>Enter your grid view name...</value>
+  </data>
+  <data name="EnterSurveyQuestion" xml:space="preserve">
+    <value>Enter survey question...</value>
+  </data>
+  <data name="EnterText" xml:space="preserve">
+    <value>Enter Text</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="FailedCheckValues" xml:space="preserve">
+    <value>Failed! Check values.</value>
+  </data>
+  <data name="Feb" xml:space="preserve">
+    <value>Feb</value>
+  </data>
+  <data name="February" xml:space="preserve">
+    <value>February</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="FilterCriteria" xml:space="preserve">
+    <value>Filter Criteria</value>
+  </data>
+  <data name="FilterHelp" xml:space="preserve">
+    <value>Filter Help</value>
+  </data>
+  <data name="FilterIsNotValidDate" xml:space="preserve">
+    <value>filter value is not valid date</value>
+  </data>
+  <data name="FirstPage" xml:space="preserve">
+    <value>First Page</value>
+  </data>
+  <data name="Folder" xml:space="preserve">
+    <value>folder</value>
+  </data>
+  <data name="FormChanges" xml:space="preserve">
+    <value>Form Changes</value>
+  </data>
+  <data name="FormLoaded" xml:space="preserve">
+    <value>Form loaded</value>
+  </data>
+  <data name="Formula" xml:space="preserve">
+    <value>Formula</value>
+  </data>
+  <data name="FormulaResult" xml:space="preserve">
+    <value>Formula Result</value>
+  </data>
+  <data name="FormulaResult" xml:space="preserve">
+    <value>Formula Result</value>
+  </data>
+  <data name="Found" xml:space="preserve">
+    <value>found!</value>
+  </data>
+  <data name="Fri" xml:space="preserve">
+    <value>Fri</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>Friday</value>
+  </data>
+  <data name="GettingCompanyInbox" xml:space="preserve">
+    <value>GETTING COMPANY INBOX...</value>
+  </data>
+  <data name="GettingOfficeInbox" xml:space="preserve">
+    <value>GETTING OFFICE INBOX...</value>
+  </data>
+  <data name="GridFilteredBy" xml:space="preserve">
+    <value>Grid filtered by</value>
+  </data>
+  <data name="GridFilterHelp" xml:space="preserve">
+    <value>Grid Filter Help</value>
+  </data>
+  <data name="GridOptions" xml:space="preserve">
+    <value>Grid Options</value>
+  </data>
+  <data name="GroupBy" xml:space="preserve">
+    <value>Group By</value>
+  </data>
+  <data name="Hrs" xml:space="preserve">
+    <value>hrs</value>
+  </data>
+  <data name="Inbox" xml:space="preserve">
+    <value>INBOX</value>
+  </data>
+  <data name="InsertSuccessful" xml:space="preserve">
+    <value>Insert successful</value>
+  </data>
+  <data name="InvalidColumnName" xml:space="preserve">
+    <value>Invalid column name</value>
+  </data>
+  <data name="InvalidDate" xml:space="preserve">
+    <value>Invalid date</value>
+  </data>
+  <data name="InvalidEmail" xml:space="preserve">
+    <value>Invalid email address</value>
+  </data>
+  <data name="InvalidIP" xml:space="preserve">
+    <value>Invalid IP address</value>
+  </data>
+  <data name="InvalidPhone" xml:space="preserve">
+    <value>Invalid phone number</value>
+  </data>
+  <data name="InvalidURL" xml:space="preserve">
+    <value>Invalid URL address</value>
+  </data>
+  <data name="IsNotEqual" xml:space="preserve">
+    <value>Is not equal</value>
+  </data>
+  <data name="IsNotInteger" xml:space="preserve">
+    <value>Is not an integer</value>
+  </data>
+  <data name="IsNotNnumber" xml:space="preserve">
+    <value>Is not a number</value>
+  </data>
+  <data name="ItemTitle" xml:space="preserve">
+    <value>Item Title...</value>
+  </data>
+  <data name="IwantToKeepMyChanges" xml:space="preserve">
+    <value>I want to keep my changes and update the record!</value>
+  </data>
+  <data name="IwantToReloadThePage" xml:space="preserve">
+    <value>I want to reload the page and see last updated form!</value>
+  </data>
+  <data name="IwantToSeeChanges" xml:space="preserve">
+    <value>I want to see the changes</value>
+  </data>
+  <data name="Jan" xml:space="preserve">
+    <value>Jan</value>
+  </data>
+  <data name="January" xml:space="preserve">
+    <value>January</value>
+  </data>
+  <data name="Jul" xml:space="preserve">
+    <value>Jul</value>
+  </data>
+  <data name="July" xml:space="preserve">
+    <value>July</value>
+  </data>
+  <data name="Jun" xml:space="preserve">
+    <value>Jun</value>
+  </data>
+  <data name="June" xml:space="preserve">
+    <value>June</value>
+  </data>
+  <data name="LastPage" xml:space="preserve">
+    <value>Last Page</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="ManageView" xml:space="preserve">
+    <value>Manage View</value>
+  </data>
+  <data name="Mar" xml:space="preserve">
+    <value>Mar</value>
+  </data>
+  <data name="March" xml:space="preserve">
+    <value>March</value>
+  </data>
+  <data name="Max" xml:space="preserve">
+    <value>Max @</value>
+  </data>
+  <data name="MaxCharacters" xml:space="preserve">
+    <value>Max characters</value>
+  </data>
+  <data name="MaximumCharacters" xml:space="preserve">
+    <value>Maximum characters</value>
+  </data>
+  <data name="MaxSelect1" xml:space="preserve">
+    <value>Max select @1</value>
+  </data>
+  <data name="MaxTextLength" xml:space="preserve">
+    <value>Max text length @</value>
+  </data>
+  <data name="May" xml:space="preserve">
+    <value>May</value>
+  </data>
+  <data name="Min" xml:space="preserve">
+    <value>Min @</value>
+  </data>
+  <data name="Min" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="Minimum1NonAlphanumericCharacter(!@#$%&amp;*_+)" xml:space="preserve">
+    <value>Minimum 1 non-alphanumeric character (!@#$%&amp;*_+)</value>
+  </data>
+  <data name="Minimum1NumericCharacter" xml:space="preserve">
+    <value>Minimum 1 numeric character</value>
+  </data>
+  <data name="Minimum1UpperCaseLetter" xml:space="preserve">
+    <value>Minimum 1 upper case letter</value>
+  </data>
+  <data name="Minimum8Characters" xml:space="preserve">
+    <value>Minimum 8 characters</value>
+  </data>
+  <data name="MinSelect1" xml:space="preserve">
+    <value>Min select @1</value>
+  </data>
+  <data name="MinTextLength" xml:space="preserve">
+    <value>Min text length @</value>
+  </data>
+  <data name="Mon" xml:space="preserve">
+    <value>Mon</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>Monday</value>
+  </data>
+  <data name="Months" xml:space="preserve">
+    <value>months</value>
+  </data>
+  <data name="MySavedGridViews" xml:space="preserve">
+    <value>My Saved Grid Views</value>
+  </data>
+  <data name="NewEmail" xml:space="preserve">
+    <value>New Email</value>
+  </data>
+  <data name="NewItem" xml:space="preserve">
+    <value>New Item</value>
+  </data>
+  <data name="NewRecord" xml:space="preserve">
+    <value>New Record</value>
+  </data>
+  <data name="NextPage" xml:space="preserve">
+    <value>Next Page</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NoDataFound" xml:space="preserve">
+    <value>No data found!</value>
+  </data>
+  <data name="NoDataFoundForThisLocationPlease" xml:space="preserve">
+    <value>No data found for this location.&lt;br&gt;&lt;br&gt;Please</value>
+  </data>
+  <data name="NoFilterItemsFound" xml:space="preserve">
+    <value>No filter items found!</value>
+  </data>
+  <data name="NoRecord" xml:space="preserve">
+    <value>No record!</value>
+  </data>
+  <data name="NoRecordFound" xml:space="preserve">
+    <value>No record found!</value>
+  </data>
+  <data name="NoSpecialChar" xml:space="preserve">
+    <value>No special character</value>
+  </data>
+  <data name="Nov" xml:space="preserve">
+    <value>Nov</value>
+  </data>
+  <data name="November" xml:space="preserve">
+    <value>November</value>
+  </data>
+  <data name="Oct" xml:space="preserve">
+    <value>Oct</value>
+  </data>
+  <data name="October" xml:space="preserve">
+    <value>October</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="OnlyLetter" xml:space="preserve">
+    <value>Only letter</value>
+  </data>
+  <data name="OnlyNumber" xml:space="preserve">
+    <value>Only number</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>Or</value>
+  </data>
+  <data name="OrganizationDetails" xml:space="preserve">
+    <value>Organization Details</value>
+  </data>
+  <data name="PleaseAddAColumn" xml:space="preserve">
+    <value>Please add a column</value>
+  </data>
+  <data name="PleaseCheckFormValues" xml:space="preserve">
+    <value>Please check form values!</value>
+  </data>
+  <data name="PleaseCheckYourFilters" xml:space="preserve">
+    <value>Please check your filters!</value>
+  </data>
+  <data name="PleaseEnableYourLocationSetting" xml:space="preserve">
+    <value>Please enable your location setting!</value>
+  </data>
+  <data name="PleaseEnter " xml:space="preserve">
+    <value>Please enter </value>
+  </data>
+  <data name="PleaseEnterAValidEmail" xml:space="preserve">
+    <value>Please enter a valid email!</value>
+  </data>
+  <data name="PleaseEnterFolderName" xml:space="preserve">
+    <value>Please enter Folder Name!</value>
+  </data>
+  <data name="PleaseEnterNumber" xml:space="preserve">
+    <value>Please enter a number</value>
+  </data>
+  <data name="PleaseEnterText" xml:space="preserve">
+    <value>Please enter text</value>
+  </data>
+  <data name="PleaseEnterTitle" xml:space="preserve">
+    <value>Please Enter Title</value>
+  </data>
+  <data name="PleaseEnterValid1Date" xml:space="preserve">
+    <value>Please enter a valid #1 date</value>
+  </data>
+  <data name="PleaseEnterValid2Date" xml:space="preserve">
+    <value>Please enter a valid #2 date</value>
+  </data>
+  <data name="PleaseEnterValidDate" xml:space="preserve">
+    <value>Please enter a valid date</value>
+  </data>
+  <data name="PleaseSelectAnItem" xml:space="preserve">
+    <value>Please select an item</value>
+  </data>
+  <data name="PleaseSelectARecord" xml:space="preserve">
+    <value>Please select a record</value>
+  </data>
+  <data name="PleaseSelectColumn" xml:space="preserve">
+    <value>Please select column</value>
+  </data>
+  <data name="PleaseSelectFilterType" xml:space="preserve">
+    <value>Please select filter type</value>
+  </data>
+  <data name="PleaseSelectOffice" xml:space="preserve">
+    <value>Please select office</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Please wait...</value>
+  </data>
+  <data name="PM" xml:space="preserve">
+    <value>PM</value>
+  </data>
+  <data name="Points" xml:space="preserve">
+    <value>Points</value>
+  </data>
+  <data name="PreviousPage" xml:space="preserve">
+    <value>Previous Page</value>
+  </data>
+  <data name="RankingHistory" xml:space="preserve">
+    <value>Ranking History</value>
+  </data>
+  <data name="RefreshGrid" xml:space="preserve">
+    <value>Refresh Grid</value>
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>Reload</value>
+  </data>
+  <data name="ReloadForm" xml:space="preserve">
+    <value>Reload Form</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="RemoveFilter" xml:space="preserve">
+    <value>Remove Filter</value>
+  </data>
+  <data name="RemoveWidget" xml:space="preserve">
+    <value>Remove Widget</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="Rows" xml:space="preserve">
+    <value>Rows</value>
+  </data>
+  <data name="Sat" xml:space="preserve">
+    <value>Sat</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>Saturday</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SaveAndClose" xml:space="preserve">
+    <value>Save &amp; Close</value>
+  </data>
+  <data name="SaveAndNew" xml:space="preserve">
+    <value>Save &amp; New</value>
+  </data>
+  <data name="SaveCurrentGridView" xml:space="preserve">
+    <value>Save Current Grid View</value>
+  </data>
+  <data name="SaveThisSearch" xml:space="preserve">
+    <value>Save This Search</value>
+  </data>
+  <data name="SaveView" xml:space="preserve">
+    <value>Save View</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Sec" xml:space="preserve">
+    <value>sec</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="SelectDate" xml:space="preserve">
+    <value>Select Date</value>
+  </data>
+  <data name="SelectWithDots" xml:space="preserve">
+    <value>Select...</value>
+  </data>
+  <data name="Sep" xml:space="preserve">
+    <value>Sep</value>
+  </data>
+  <data name="September" xml:space="preserve">
+    <value>September</value>
+  </data>
+  <data name="SetMyCurrentLocation" xml:space="preserve">
+    <value>Set my current location...</value>
+  </data>
+  <data name="ShowDays" xml:space="preserve">
+    <value>Show Days</value>
+  </data>
+  <data name="Showing" xml:space="preserve">
+    <value>Showing</value>
+  </data>
+  <data name="ShowNights" xml:space="preserve">
+    <value>Show Nights</value>
+  </data>
+  <data name="SorryWeCouldNotFindRecord" xml:space="preserve">
+    <value>Sorry we could not find the record you requested!</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="StartNumberIsNotCorrect" xml:space="preserve">
+    <value>Start number is not correct!</value>
+  </data>
+  <data name="Stops" xml:space="preserve">
+    <value>Stops</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Sun" xml:space="preserve">
+    <value>Sun</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>Sunday</value>
+  </data>
+  <data name="SurveyDeleted" xml:space="preserve">
+    <value>Survey deleted!</value>
+  </data>
+  <data name="SurveyPublished" xml:space="preserve">
+    <value>Survey published!</value>
+  </data>
+  <data name="TheFolderHasBeenDeleted" xml:space="preserve">
+    <value>The folder has been deleted</value>
+  </data>
+  <data name="TheFollowingOfficesDoNotHaveAlertPersonSpecified" xml:space="preserve">
+    <value>The following offices {0} do not have alert person specified.</value>
+  </data>
+  <data name="ThisColumnUsingInFilter" xml:space="preserve">
+    <value>This column using in the filter. You can not hide the column.</value>
+  </data>
+  <data name="ThisColumnUsingInTheFilterYouCannotHideTheColumn" xml:space="preserve">
+    <value>This column using in the filter. You can not hide the column.</value>
+  </data>
+  <data name="ThisFolderHasBeenAddedInYourFavoriteList" xml:space="preserve">
+    <value>This folder has been added in your favorite list</value>
+  </data>
+  <data name="ThisFolderNameAlreadyUnderTheSelectedMainFolder" xml:space="preserve">
+    <value>This folder name already under the selected main folder.</value>
+  </data>
+  <data name="ThisFolderNameAlreadyUnderTheSelectedMainFolder" xml:space="preserve">
+    <value>This folder name already under the selected main folder.</value>
+  </data>
+  <data name="Thu" xml:space="preserve">
+    <value>Thu</value>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>Thursday</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Today" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Tue" xml:space="preserve">
+    <value>Tue</value>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>Tuesday</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="UpdateAndClose" xml:space="preserve">
+    <value>Update &amp; Close</value>
+  </data>
+  <data name="Updated" xml:space="preserve">
+    <value>Updated</value>
+  </data>
+  <data name="UpdateSuccessful" xml:space="preserve">
+    <value>Update successful</value>
+  </data>
+  <data name="UseBetweenDateCritera" xml:space="preserve">
+    <value>Use between date critera such as: 01/15/2022+02/20/2022 (start date + end date)</value>
+  </data>
+  <data name="UsedInFilterShowField" xml:space="preserve">
+    <value>used in the filter, please show the field under Grid Tools menu</value>
+  </data>
+  <data name="WeCouldNotSaveYourContact" xml:space="preserve">
+    <value>We could not save your contact!</value>
+  </data>
+  <data name="Wed" xml:space="preserve">
+    <value>Wed</value>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>Wednesday</value>
+  </data>
+  <data name="WillMoveToUnderSelectedFolderPleaseSelectAFolder" xml:space="preserve">
+    <value>will move to under selected folder. Please select a folder:</value>
+  </data>
+  <data name="WouldYouLikeToDeleteItem" xml:space="preserve">
+    <value>Would you like to delete this item?</value>
+  </data>
+  <data name="WouldYouLikeToDeleteSurvey" xml:space="preserve">
+    <value>Would you like to delete this Survey?</value>
+  </data>
+  <data name="WouldYouLikeToPublishSurvey" xml:space="preserve">
+    <value>Would you like to publish this Survey?</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="YouCanChangeColumnOrders" xml:space="preserve">
+    <value>You can change your column orders. Click on column name and drag it.</value>
+  </data>
+  <data name="YouCanChangeYourColumnOrdersClickOnColumnNameAndDragIt" xml:space="preserve">
+    <value>You can change your column orders. Click on column name and drag it.</value>
+  </data>
+  <data name="YouHaveNotSavedChanges" xml:space="preserve">
+    <value>You have not saved your changes! Please click 'Stay on Page' and click 'Save' button. To discard click 'Leave Page'.</value>
+  </data>
+  <data name="YourDataHasBeenDeleted" xml:space="preserve">
+    <value>Your data has been deleted!</value>
+  </data>
+  <data name="YourDataHasBeenInserted" xml:space="preserve">
+    <value>Your data has been inserted!</value>
+  </data>
+  <data name="YourDataHasBeenUpdated" xml:space="preserve">
+    <value>Your data has been updated!</value>
+  </data>
+  <data name="YourExportFileIsPreparingPleaseWait" xml:space="preserve">
+    <value>Your export file is preparing. Please wait...</value>
+  </data>
+  <data name="YourExportPreparingWait" xml:space="preserve">
+    <value>Your export file is preparing. Please wait...</value>
+  </data>
+  <data name="YourNoteSaved" xml:space="preserve">
+    <value>Your note saved!</value>
+  </data>
+  <data name="Yrs" xml:space="preserve">
+    <value>yrs</value>
+  </data>
+</root>

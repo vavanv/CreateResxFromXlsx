@@ -43,10 +43,9 @@ namespace CreateResxFile
 
                 var outputFile = inOutputFileName;
 
-
                 var columns = worksheet.Cells[1, 1, 1, totalColumns].Select(c => c.Value == null ? string.Empty : c.Value.ToString()).ToArray();
 
-                for (int colNum=1; colNum < totalColumns; colNum++)
+                for (int colNum=1; colNum < columns.Length; colNum++)
                 
                 {
                     var culunmName = columns[colNum];
